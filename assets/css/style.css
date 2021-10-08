@@ -1,0 +1,435 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video 
+{
+      font-family: IRANSans !important;
+  }
+
+  * {margin: 0;
+       padding: 0;
+}
+
+  a {
+        text-decoration: none;
+      }
+  
+      
+#imgHeader{
+      min-height: 100%;
+}
+
+body{
+     /*  background-color:#1098a8!important; */
+     background: linear-gradient(360deg, #1098a8 20%, #1096a8 30%, #109aa9 20%, #119ba9 30%); 
+    
+
+}
+
+.header{
+      height:140px;  
+}
+
+/* 
+@media screen and (max-width: 736px)  {
+      #header.alt .logo img {
+            display: block !important;
+            margin-top: 0 auto !important;
+            margin-top: 0px !important;
+            min-width: 100% !important;
+      
+            }
+      } */
+
+@media screen and (max-width: 736px) {
+      .header{
+            margin-top: -4rem;  
+            height: unset!important;
+         }
+
+    } 
+
+@media screen and (max-width: 736px) {
+      #imgHeader{
+            padding-top: 4rem;  
+         }
+    } 
+
+
+
+    .mo{
+	display: flex !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+}
+
+
+
+/* از دیوار کل یو ال فاصله میگیرد */
+.navbar-nav{  
+      display: flex;
+      margin-right:1rem;
+      margin-bottom: 0 !important;
+
+}
+ 
+
+
+
+/* تنطیم منوی نوبار و ارتفاغ و چپ و راست */
+ /* ارتفاع نوبار 
+ و چپ و راست */
+  /*  padding: 0.5rem !important; */
+.navbar-dark .navbar-nav .nav-link{
+      list-style: none;
+     padding-right:3rem !important;
+     padding-left:3rem  !important;
+     padding-top: 0.5rem !important;
+     padding-bottom:0.5rem !important;
+}
+
+
+@media screen and (max-width: 736px) {
+      .navbar-dark .navbar-nav .nav-link{
+          
+            padding: 0.5rem !important;
+            } 
+         }
+
+         /* @media screen and (max-width: 736px) {
+            .navbar-dark .navbar-nav .nav-link:hover{
+                  background-color:red;
+                  } 
+               }
+           */
+                 
+            
+            
+
+@media screen and (max-width: 736px) {
+      .navbar-nav .nav-item {
+            list-style: none;
+            padding: -1px 10px -1px 0px; 
+      
+      }
+    } 
+
+
+
+@media screen and (max-width: 736px) {
+      .navbar-collapse{
+           margin-right: -3rem;
+            flex-grow:0 !important;
+            }
+            
+         }
+    
+    
+
+.collapse li:hover{
+      background-color:#3282b8;
+}
+
+
+
+
+/* بدنه از نوبار فاصله بگیرد  */
+#main{
+      margin-top: .5rem;
+}
+
+@media screen and (max-width: 736px) {
+      .collapse a{
+            font-size:14px !important;
+            }
+            
+         }
+    
+
+.collapse a{
+      color: white;
+      font-size:16px;
+      }
+
+
+.text{
+      text-align: justify;
+      font-size: 18px;
+      line-height: 2.75rem;  
+      float:right;
+      margin-top:-3rem  
+}
+
+
+ @media screen and (max-width: 736px) {
+   .text{
+            line-height:2rem !important;
+      }
+ 
+ } 
+
+.major .h2{
+      margin-top:-3rem !important;
+
+}
+
+
+
+.strong{
+      font-weight: 900;
+}
+
+.strong .u{
+      font-weight: 900; 
+      border-bottom: 1px solid black;
+}
+
+.u{
+      border-bottom: 2px solid black;
+
+}
+
+#footer{
+      margin-top:-10rem !important;
+}
+
+.copyright{
+
+      margin-bottom:-4rem !important;
+}
+
+@media screen and (max-width: 736px) {
+      .copyright{
+            margin-bottom:-2rem !important;
+      }
+}
+
+
+
+@media screen and (max-width: 736px) {
+
+      #footer {
+            margin-top:-3rem !important;
+      }
+}
+
+@media screen and (max-width: 736px) {
+
+      #footer h2 {
+            margin-top:4rem !important;
+      }
+}
+
+
+      .download {
+            border-radius: 13% !important;
+            background-color: #fae3d9 !important;
+            width: 9rem !important;
+            display: inline-block !important;
+            height: 2rem !important;;
+            margin-bottom: 2rem !important;
+            text-decoration: none  !important;
+      }     
+      
+    
+/* شناسنامه شرکت از خدمات شرکت فاصله بگیرد */
+      @media screen and (max-width: 736px)  {
+             .shenase{
+                 margin-bottom:-3rem !important;
+           
+                  }
+            }
+            /* متن از فراخوان  */
+            .main .major .text{
+                  padding-top:2rem;
+            }
+
+
+.cta{
+      text-decoration: none !important;
+}
+
+            @media screen and (max-width: 736px)  {
+            #main > .main {
+                  padding: 1em 1em 0em 1em !important;
+                      padding-top: 1em;
+                      padding-right: 1em;
+                      padding-bottom: 0em;
+                      padding-left: 1em;
+                  border-top: solid 1px #dddddd;
+            }
+      }
+
+              /* فراخوان بکارگیری از بوردر بالا */
+      @media screen and (max-width: 736px)  {
+            .major{
+                margin-top:3rem !important;
+                 }
+           }
+
+           #header{
+            margin-bottom: -4em;
+      }
+
+/* انگار کار خاصی نمیکنه */
+      @media screen and (max-width: 736px)  {
+            #header{
+                margin-bottom:.5rem !important;
+                margin-top:-6rem !important;
+                 }
+           }
+
+           .shenase{
+      margin-top: -5rem !important;
+      text-align: justify;
+      line-height: 2rem;
+      padding-top:4rem;    
+}
+
+.shenase .sidebarLink{
+      text-decoration: none;
+      color:#333;
+} 
+
+           @media screen and (max-width: 736px)  {
+            .shenase{
+                  margin-top: -3rem !important;
+                  text-decoration: none !important;
+                 }
+           }
+
+         
+/* متن خدمات شرکت میاد بالا نردیک مدیریت شرک */
+           header.major{
+
+            padding-top:1rem !important;
+           }
+
+           .h3{
+            /*   margin-bottom:-6rem;  */
+              float:right; 
+              margin-top:-3rem; 
+           }
+
+/* تعییری نکرد */
+           @media screen and (max-width: 736px)  {
+            .h3{
+                  margin-top: 1rem !important;
+                 }
+           }
+           
+
+/* کل همون خدامات شرکت بالا و پایین میکند */
+          @media screen and (max-width: 992px)  {
+            .h3{
+                margin-top:1rem !important;
+                 }
+
+               .content .text{
+                       margin-top: 1.2rem;
+                       margin-right: -11rem;
+                 }
+           }
+ 
+           @media screen and (max-width: 560)  {
+            .h3{
+                margin-right:0rem !important;
+                 }
+            }
+
+           @media screen and (max-width: 992px)  {
+            .shenase{
+                  margin-right: 0rem !important;
+
+                 }
+           }
+
+
+           @media screen and (max-width: 992px)  {
+            .shenase{
+                  margin-right: 0rem !important;
+
+                 }
+           }
+           
+  
+
+           @media screen and (max-width: 992px)  {
+                  .content .text{
+                
+                  margin-right: auto;
+            }
+           }
+           
+
+           @media screen and (max-width: 992px)  {
+            .content {
+          
+            margin-left: 5rem;
+      }
+     }
+
+
+
+
+           /* اسکرول افقی */
+ /* This class is added on scroll */
+.fixed {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	left: 0;
+	right: 0;
+}
+
+
+.bg-dark{
+	padding-top: 0;
+      padding-bottom: 0.0px;
+}
+
+
+.navbar-collapse{
+	text-align: center;
+}
+.spotlight{
+	text-align: right;
+	align-items: unset;
+}
+
+
+navbar-toggler {
+
+      font-size: unset;
+    }
+     @media  (max-width:467px){
+             #imgHeader {
+
+         height: 129px !important;
+     }
+    }
+    @media screen and (max-width: 992px)  {
+           .content .text{
+
+           margin-right: auto !important;
+     }
+     .navbar-collapse {
+
+        margin-right: 0 !important;
+        }
+    }
+
+
+
+/*بخش عکس ها   */
+
+#cta .major img {
+    margin-top: -80px!important;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px)  {
+    #cta .major img {
+        margin-top: -3rem !important;
+
+    }
+}
